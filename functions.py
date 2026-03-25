@@ -25,7 +25,7 @@ def add_product():
 def show_inventory():
     print("\n--- Current inventory ---")
     if not inventory:
-        print("El inventario está vacío.")
+        print("Inventory is empty.")
     else:
         for p in inventory:
             print(f"Product: {p['Name']} | Price: {p['Price']} | Amount: {p['Amount']}")

@@ -1,23 +1,23 @@
-# Importamos las funciones. 
-import funciones 
+# We import the functions.. 
+import functions
 
-def ejecutar_menu(): 
-    validador = True
-    while  validador :
-        print("\n1. Agregar | 2. Mostrar | 3. Estadísticas | 4. Salir") 
-        opcion = input("Selecciona: ")
+def run_menu(): 
+   validator= True
+   while  validator :
+        print("\n1. Add | 2. Sample | 3. Statistics | 4. go out") 
+        opcion = input("Select: ")
 
         if opcion == "1":
-            funciones.agregar_producto()
+            functions.add_product()
         elif opcion == "2":
-            funciones.mostrar_inventario() 
+            functions.show_inventory() 
         elif opcion == "3":
-            funciones.calcular_estadisticas()
+            functions.calculate_statistics()
         elif opcion == "4":
-            validador = False
+            validator = False
     
         else:
-            print("Opción no válida.")
+            print("Invalid option.")
 
 if __name__=="__main__":
-    ejecutar_menu()
+    run_menu()
