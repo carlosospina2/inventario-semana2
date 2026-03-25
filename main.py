@@ -1,6 +1,8 @@
 # We import the functions.. 
 import functions
 
+print ("   ¡¡WELCOME STORE!!"    )  
+
 def run_menu(): 
    validator= True
    while  validator :
@@ -21,3 +23,4 @@ def run_menu():
 
 if __name__=="__main__":
     run_menu()
+
